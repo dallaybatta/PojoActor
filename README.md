@@ -1,0 +1,4 @@
+PojoActor
+=========
+
+Pojo For JActor
