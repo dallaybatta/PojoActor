@@ -6,7 +6,7 @@ package org.dallaybatta.pactor.proxy.invoker.impl;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-import org.agilewiki.jactor.api.Mailbox;
+import org.agilewiki.jactor2.api.Mailbox;
 import org.dallaybatta.pactor.InternalProxyException;
 import org.dallaybatta.pactor.proxy.InternalRequest;
 import org.dallaybatta.pactor.proxy.interceptor.InvocationObject;
@@ -40,7 +40,7 @@ public class SignalInvoker implements Invoker {
 			ir.setMethodParam(methodParam);
 			ir.setMethodParamValue(methodParamValue);
 			// This is syn operation as it makes the client to wait till the call is over.
-			ir.signal();				 
+			ir.signal(null); // Need to Fix it, was added to get over the compilation errors.				 
 			logger.info(Utility.HASH_CHARACTER_SET+"Done with Invocation of method "+methodName+" via proxy "+invocationObject.getInvokee().getClass());
 		} catch (Exception e) {
 			e.printStackTrace();

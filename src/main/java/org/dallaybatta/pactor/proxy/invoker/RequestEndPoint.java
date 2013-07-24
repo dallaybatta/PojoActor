@@ -2,7 +2,7 @@ package org.dallaybatta.pactor.proxy.invoker;
 
 import java.io.Serializable;
 
-import org.agilewiki.jactor.api.Transport;
+import org.agilewiki.jactor2.api.Transport;
 
 public class RequestEndPoint<RESPONSE_TYPE> implements Serializable{
 

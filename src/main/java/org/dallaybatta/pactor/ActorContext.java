@@ -2,7 +2,7 @@ package org.dallaybatta.pactor;
 
 import java.util.List;
 
-import org.agilewiki.jactor.api.Mailbox;
+import org.agilewiki.jactor2.api.Mailbox;
 import org.dallaybatta.pactor.proxy.invoker.RequestEndPoint;
 
 public interface ActorContext {

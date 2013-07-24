@@ -3,7 +3,7 @@ package org.dallaybatta.pactor.proxy;
 import java.util.concurrent.Semaphore;
 import java.util.logging.Logger;
 
-import org.agilewiki.jactor.api.ResponseProcessor;
+import org.agilewiki.jactor2.api.ResponseProcessor;
 
 // I don't think this is required,need to check and then delete....
 public class GenericResponseProcessor<RESPONSE_TYPE> implements ResponseProcessor<RESPONSE_TYPE>{

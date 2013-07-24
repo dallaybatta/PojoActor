@@ -6,9 +6,9 @@ import java.util.HashMap;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-import org.agilewiki.jactor.api.Mailbox;
-import org.agilewiki.jactor.api.RequestBase;
-import org.agilewiki.jactor.api.Transport;
+import org.agilewiki.jactor2.api.Mailbox;
+import org.agilewiki.jactor2.api.Request;
+import org.agilewiki.jactor2.api.Transport;
 import org.dallaybatta.pactor.ActorContext;
 import org.dallaybatta.pactor.proxy.invoker.impl.CallBack;
 import org.dallaybatta.pactor.util.Utility;
@@ -16,7 +16,7 @@ import org.dallaybatta.pactor.util.Utility;
 /*
  * The InternalRequest Object is being used by the Actor Proxy.
  */
-public class InternalRequest<RESPONSE_TYPE,REAL_ACTOR_TYPE> extends RequestBase<RESPONSE_TYPE>{
+public class InternalRequest<RESPONSE_TYPE,REAL_ACTOR_TYPE> extends Request<RESPONSE_TYPE>{
 	
 	private final static Logger logger = Logger.getLogger(InternalRequest.class .getName());
 

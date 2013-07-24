@@ -6,7 +6,7 @@ package org.dallaybatta.pactor.proxy.interceptor;
 import java.lang.reflect.Method;
 import java.util.logging.Logger;
 
-import org.agilewiki.jactor.api.Mailbox;
+import org.agilewiki.jactor2.api.Mailbox;
 import org.dallaybatta.pactor.ActorContext;
 import org.dallaybatta.pactor.InvocationContext;
 import org.dallaybatta.pactor.proxy.invoker.impl.CallBack;

@@ -12,7 +12,7 @@ import javassist.util.proxy.MethodHandler;
 import javassist.util.proxy.Proxy;
 import javassist.util.proxy.ProxyFactory;
 
-import org.agilewiki.jactor.api.Mailbox;
+import org.agilewiki.jactor2.api.Mailbox;
 import org.dallaybatta.pactor.exception.ActorNotAnnotated;
 import org.dallaybatta.pactor.Messages;
 import org.dallaybatta.pactor.proxy.InterceptorChain;

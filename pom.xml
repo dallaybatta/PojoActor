@@ -22,13 +22,13 @@
 	  <scope>test</scope>
     </dependency>
     <dependency>
-		<groupId>org.agilewiki.jactor</groupId>
-		<artifactId>jactor-api</artifactId>
+		<groupId>org.agilewiki.jactor2</groupId>
+		<artifactId>jactor2-api</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
     </dependency>
     <dependency>
-		<groupId>org.agilewiki.jactor</groupId>
-		<artifactId>jactor-impl</artifactId>
+		<groupId>org.agilewiki.jactor2</groupId>
+		<artifactId>jactor2-impl</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
     </dependency>
     <dependency>

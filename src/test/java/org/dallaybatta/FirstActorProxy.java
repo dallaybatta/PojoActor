@@ -6,10 +6,10 @@ package org.dallaybatta;
 import java.util.concurrent.Semaphore;
 import java.util.logging.Logger;
 
-import org.agilewiki.jactor.api.Mailbox;
-import org.agilewiki.jactor.api.MailboxFactory;
-import org.agilewiki.jactor.api.ResponseProcessor;
-import org.agilewiki.jactor.impl.DefaultMailboxFactoryImpl;
+import org.agilewiki.jactor2.api.Mailbox;
+import org.agilewiki.jactor2.api.MailboxFactory;
+import org.agilewiki.jactor2.api.ResponseProcessor;
+import org.agilewiki.jactor2.impl.DefaultMailboxFactoryImpl;
 import org.dallaybatta.pactor.InternalProxyException;
 import org.dallaybatta.pactor.proxy.InternalRequest;
 import org.dallaybatta.pactor.util.Utility;

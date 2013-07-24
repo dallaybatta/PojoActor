@@ -3,7 +3,7 @@ package org.dallaybatta.pactor.context.impl;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.agilewiki.jactor.api.Mailbox;
+import org.agilewiki.jactor2.api.Mailbox;
 import org.dallaybatta.pactor.ActorContext;
 import org.dallaybatta.pactor.ActorFactory;
 import org.dallaybatta.pactor.proxy.invoker.RequestEndPoint;

@@ -1,8 +1,8 @@
 package org.dallaybatta.pactor.proxy.invoker;
 
-import org.agilewiki.jactor.api.Mailbox;
-import org.agilewiki.jactor.api.MailboxFactory;
-import org.agilewiki.jactor.impl.DefaultMailboxFactoryImpl;
+import org.agilewiki.jactor2.api.Mailbox;
+import org.agilewiki.jactor2.api.MailboxFactory;
+import org.agilewiki.jactor2.impl.DefaultMailboxFactoryImpl;
 import org.dallaybatta.pactor.proxy.InternalRequest;
 
 public class InvokerUtil {

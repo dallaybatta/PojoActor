@@ -4,9 +4,9 @@ import java.lang.reflect.Method;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-import org.agilewiki.jactor.api.MailboxFactory;
-import org.agilewiki.jactor.api.Transport;
-import org.agilewiki.jactor.impl.DefaultMailboxFactoryImpl;
+import org.agilewiki.jactor2.api.MailboxFactory;
+import org.agilewiki.jactor2.api.Transport;
+import org.agilewiki.jactor2.impl.DefaultMailboxFactoryImpl;
 import org.dallaybatta.pactor.ActorContext;
 import org.dallaybatta.pactor.proxy.invoker.RequestEndPoint;
 import org.dallaybatta.pactor.util.Utility;
