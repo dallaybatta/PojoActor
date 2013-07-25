@@ -13,7 +13,7 @@ public class BasicExceptionTest extends TestCase {
 	// This test is not valid as the signal are pure asyn invocations.
 	// The signal should not have the return type.
 	// This test broke after upgradation to jactor2 package structure change.
-	/*
+	
     public void testSignal() throws Exception {          	
 		ActorBuilder<ExceptionA> builder = new ActorBuilder<ExceptionA>(ExceptionA.class);
 		ExceptionA proxy = builder.getProxy(ExceptionA.class);      		
@@ -23,7 +23,7 @@ public class BasicExceptionTest extends TestCase {
             return;
         }         
     }
-    */
+    
 	
     public void testCall() throws Exception {          	
 		ActorBuilder<ExceptionA> builder = new ActorBuilder<ExceptionA>(ExceptionA.class);

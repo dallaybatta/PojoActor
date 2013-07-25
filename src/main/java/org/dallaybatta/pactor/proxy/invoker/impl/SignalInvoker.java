@@ -31,7 +31,7 @@ public class SignalInvoker implements Invoker {
 		Class<?> invokeSuperClass = invocationObject.getInvokee().getClass().getSuperclass();
 		iutil.createMailBox();
 		InternalRequest ir = iutil.createRequest(invocationObject.getProceed().getGenericReturnType().getClass(),invokeSuperClass);	
-		//setMailBox(iutil.getMailBox());
+		setMailBox(iutil.getMailBox());
 		try {
 			ir.setMethodName(methodName);
 			ir.setActorClassName(invokeSuperClass.getName());
@@ -40,7 +40,7 @@ public class SignalInvoker implements Invoker {
 			ir.setMethodParam(methodParam);
 			ir.setMethodParamValue(methodParamValue);
 			// This is syn operation as it makes the client to wait till the call is over.
-			ir.signal(null); // Need to Fix it, was added to get over the compilation errors.				 
+			ir.signal(getMailBox()); // Need to Fix it, was added to get over the compilation errors.				 
 			logger.info(Utility.HASH_CHARACTER_SET+"Done with Invocation of method "+methodName+" via proxy "+invocationObject.getInvokee().getClass());
 		} catch (Exception e) {
 			e.printStackTrace();
@@ -50,16 +50,16 @@ public class SignalInvoker implements Invoker {
 		}		
 		return null;	
 	}
-	/*
-	@Override
+	
+
 	public Mailbox getMailBox() {
 		return mailbox;
 	}
 
 
-	@Override
+
 	public void setMailBox(Mailbox box) {
 		this.mailbox = box;
 	}
-	*/
+	
 }
