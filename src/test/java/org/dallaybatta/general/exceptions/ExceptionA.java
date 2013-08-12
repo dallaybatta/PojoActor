@@ -1,6 +1,5 @@
 package org.dallaybatta.general.exceptions;
 
-import org.dallaybatta.general.messaging.ActorB;
 import org.dallaybatta.pactor.ActorContext;
 import org.dallaybatta.pactor.annotation.AContext;
 import org.dallaybatta.pactor.annotation.AsynCall;
